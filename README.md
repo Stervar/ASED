@@ -20,8 +20,11 @@
 
 
 •🗄A-archive[архив]🗄
+
 •🧰S-skills[умений]🧰
+
 •👥E-everyone[всех]👥
+
 •🛠D-disciplines[дисциплин]🛠
 
 •🗂Это библиотека представляет из себя большой каталог с интуитивно простым управлением🗂 
@@ -45,8 +48,11 @@
 •🗃Get to know the big library [ASED] is a library focused on your learning and a better understanding of the language in general 🗃 
 
 •🗄A-archive[archive]🗄
+
 •🧰S-skills[skill]🧰
+
 •👥E-everyone[all]👥
+
 •🛠D-disciplines[disciplines]🛠
 
 •🗂This library is a large catalog with intuitive and simple management🗂 
