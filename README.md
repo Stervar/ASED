@@ -45,7 +45,7 @@
 <h2 align="center">◢⸻⸻⸻⸻⸻⸻⸻⸻❃⸻⸻⸻⸻⸻⸻⸻⸻◣
  </h2>
  
-•🗃Get to know the big library [ASED] is a library focused on your learning and a better understanding of the language in general 🗃 
+•🗃Get to know the big library [ASED] - is a library focused on your learning and a better understanding of the language in general 🗃 
 
 •🗄A-archive[archive]🗄
 
@@ -54,7 +54,7 @@
 •👥E-everyone[all]👥
 
 •🛠D-disciplines[disciplines]🛠
-
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 •🗂This library is a large catalog with intuitive and simple management🗂 
 
 •📑In the library, you can find great articles with a fully deployed big topics and examples which are fully described for all items in such programming languages as📑:
