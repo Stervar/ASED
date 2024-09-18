@@ -1,26 +1,31 @@
 
-
+# Основной код программы
 
 
 import sys
 
-
+# Библиотека
 ASED_library = {
     1: {"name": "Python Basics", "description": "Основы Python, циклы и паттерны."},
     2: {"name": "JavaScript Expressions", "description": "Выражения и операторы в JavaScript."},
     3: {"name": "HTML Fundamentals", "description": "Основы HTML."},
-   
 }
 
-
+# **Функция приветствия**
 def welcome_message():
+    """
+    Выводит приветственное сообщение и запускает основное меню.
+    """
     print("Привет дорогой пользователь, это библиотека ASED!")
     print("Здесь ты можешь найти информацию по Python, JavaScript и HTML.")
     print("Выберите один из вариантов ниже для получения информации:")
     main_menu()
 
-
+# **Основное меню**
 def main_menu():
+    """
+    Выводит основное меню и обрабатывает выбор пользователя.
+    """
     print("\n1) Хочу получить понятия Python")
     print("2) Хочу получить понятия JavaScript")
     print("3) Хочу получить понятия HTML")
@@ -39,9 +44,11 @@ def main_menu():
         print("Неправильный ввод, попробуйте снова.")
         main_menu()
 
-
-
+# **Меню поиска модулей**
 def module_search_menu(language):
+    """
+    Выводит меню поиска модулей для выбранного языка.
+    """
     print(f"\nВы выбрали {language}.")
     print("1) Ввести модуль вручную")
     print("2) Ознакомиться со списком всех модулей")
@@ -58,9 +65,11 @@ def module_search_menu(language):
         print("Неправильный ввод, попробуйте снова.")
         module_search_menu(language)
 
-
-
+# **Поиск модулей вручную**
 def manual_module_search(language):
+    """
+    Выводит меню поиска модулей вручную для выбранного языка.
+    """
     print(f"\nВы находитесь в разделе {language}.")
     module_input = input("Введите номер или название модуля (или введите 'назад', чтобы вернуться назад): ")
     
@@ -79,9 +88,11 @@ def manual_module_search(language):
         print("Модуль не найден, попробуйте снова.")
         manual_module_search(language)
 
-
-
+# **Список всех модулей**
 def list_all_modules(language):
+    """
+    Выводит список всех модулей для выбранного языка.
+    """
     print(f"\nСписок доступных модулей для {language}:")
     for num, module in ASED_library.items():
         print(f"{num}: {module['name']} - {module['description']}")
@@ -93,9 +104,11 @@ def list_all_modules(language):
     else:
         manual_module_search(language)
 
-
-
+# **Вывод информации о модуле**
 def display_module_info(module_num):
+    """
+    Выводит информацию о модуле по его номеру.
+    """
     if module_num in ASED_library:
         module = ASED_library[module_num]
         print(f"\nМодуль {module_num}: {module['name']}")
@@ -114,11 +127,11 @@ def display_module_info(module_num):
         print("Модуль не найден.")
         manual_module_search("Python")
 
-
-
-
-
+# **Меню после вывода информации о модуле**
 def post_module_menu(module_num):
+    """
+    Выводит меню после вывода информации о модуле.
+    """
     print("\n1) Полностью выйти")
     print("2) Найти другой модуль")
     print("3) Перейти к списку модулей")
@@ -139,7 +152,6 @@ def post_module_menu(module_num):
     else:
         print("Неправильный ввод, попробуйте снова.")
         post_module_menu(module_num)
-
 
 if __name__ == "__main__":
     welcome_message()
